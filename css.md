@@ -2,7 +2,7 @@
 
 ## mixin
 
-``` css
+``` scss
 @mixin clearfix {
     &::after {
         content: "";
@@ -56,7 +56,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
 ```
 
 ## var
-``` css
+``` scss
 // COLORS
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
@@ -90,7 +90,7 @@ $gutter-horizontal: 6rem;
 ```
 
 ## use it
-``` css
+``` scss
 *,
 *::after,
 *::before {
